@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp1qiz0u02fsg4r12ko.mysql.rds.aliyuncs.com/test
+    username: username
+    password: password
+    hikari:
+      connection-timeout: 3000
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
